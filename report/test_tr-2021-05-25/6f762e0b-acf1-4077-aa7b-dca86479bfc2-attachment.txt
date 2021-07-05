@@ -1,0 +1,38 @@
+INFO     root:start_app.py:19 ==============================APP连接成功=============================
+INFO     root:test_try.py:14 ----------------------测试开始--------------------
+INFO     root:element_operate.py:322 ['test']开始屏幕录制！！！
+INFO     root:element_operate.py:83 ['MAIN'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:83 ['BLUETOOTH'] 页面的元素('xpath', "//*[@text='1770000025']")--点击
+INFO     root:element_operate.py:145 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')存在，判断成功！！！
+INFO     root:element_operate.py:83 ['Main'] 页面的元素('xpath', "//*[@text='① 注册']")--点击
+INFO     root:element_operate.py:83 ['Register'] 页面的元素('class name', 'android.widget.ImageButton')--点击
+INFO     root:element_operate.py:145 [''] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')存在，判断成功！！！
+INFO     root:element_operate.py:83 ['Main'] 页面的元素('xpath', "//*[@text='① 注册']")--点击
+INFO     root:element_operate.py:83 ['Register'] 页面的元素('class name', 'android.widget.ImageButton')--点击
+INFO     root:element_operate.py:145 [''] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')存在，判断成功！！！
+INFO     root:element_operate.py:83 ['Main'] 页面的元素('xpath', "//*[@text='① 注册']")--点击
+INFO     root:element_operate.py:83 ['Register'] 页面的元素('class name', 'android.widget.ImageButton')--点击
+INFO     root:element_operate.py:145 [''] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')存在，判断成功！！！
+INFO     root:element_operate.py:83 ['Main'] 页面的元素('xpath', "//*[@text='① 注册']")--点击
+INFO     root:element_operate.py:83 ['Register'] 页面的元素('class name', 'android.widget.ImageButton')--点击
+INFO     root:element_operate.py:145 [''] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')存在，判断成功！！！
+INFO     root:element_operate.py:83 ['Main'] 页面的元素('xpath', "//*[@text='① 注册']")--点击
+INFO     root:element_operate.py:83 ['Register'] 页面的元素('class name', 'android.widget.ImageButton')--点击
+INFO     root:element_operate.py:145 [''] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')存在，判断成功！！！
+INFO     root:element_operate.py:83 ['Main'] 页面的元素('xpath', "//*[@text='① 注册']")--点击
+INFO     root:element_operate.py:83 ['Register'] 页面的元素('class name', 'android.widget.ImageButton')--点击
+INFO     root:element_operate.py:145 [''] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')存在，判断成功！！！
+INFO     root:element_operate.py:83 ['Main'] 页面的元素('xpath', "//*[@text='① 注册']")--点击
+INFO     root:element_operate.py:83 ['Register'] 页面的元素('class name', 'android.widget.ImageButton')--点击
+INFO     root:element_operate.py:145 [''] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')存在，判断成功！！！
+INFO     root:element_operate.py:83 ['Main'] 页面的元素('xpath', "//*[@text='① 注册']")--点击
+INFO     root:element_operate.py:83 ['Register'] 页面的元素('class name', 'android.widget.ImageButton')--点击
+INFO     root:element_operate.py:145 [''] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')存在，判断成功！！！
+INFO     root:element_operate.py:83 ['Main'] 页面的元素('xpath', "//*[@text='① 注册']")--点击
+INFO     root:element_operate.py:83 ['Register'] 页面的元素('class name', 'android.widget.ImageButton')--点击
+INFO     root:element_operate.py:145 [''] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')存在，判断成功！！！
+INFO     root:element_operate.py:83 ['Main'] 页面的元素('xpath', "//*[@text='① 注册']")--点击
+INFO     root:element_operate.py:83 ['Register'] 页面的元素('class name', 'android.widget.ImageButton')--点击
+INFO     root:element_operate.py:145 [''] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')存在，判断成功！！！
+INFO     root:element_operate.py:336 ['test']停止屏幕录制！！！
+INFO     root:test_try.py:18 -----------------------测试结束-------------------

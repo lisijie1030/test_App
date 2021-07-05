@@ -1,0 +1,26 @@
+试爆器APP:
+  platformName: Android
+  platformVersion: 9
+  deviceName: 3W407002HA101509
+  appPackage: factory.dev
+  appActivity: com.fhl.SplashActivity
+  noReset: True
+
+起爆器APP:
+  platformName: Android
+  platformVersion: 9
+  deviceName: 3W407002HA101509
+  appPackage: prod.prod
+  appActivity: com.fhl.SplashActivity
+  noReset: True
+
+新版APP:
+  platformName: Android
+  platformVersion: 9
+  deviceName: 3W407002HA101509
+  appPackage: com.fhl.ed.initiator3
+  appActivity: com.fhl.ed.app.ui.SplashActivity
+  noReset: True
+
+
+

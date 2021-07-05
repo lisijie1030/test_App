@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.test_break",
+    "children" : [ {
+      "name" : "[Main]-->[Bluetooth]",
+      "uid" : "e7b18957b6e5d658",
+      "parentUid" : "ef4c42257748a0da56b659f35d078d46",
+      "status" : "failed",
+      "time" : {
+        "start" : 1620889845954,
+        "stop" : 1620889952157,
+        "duration" : 106203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcase.test_break"
+  } ]
+}

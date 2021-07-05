@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert None\n +  where None = <bound method element_operate.get_element of <common.element_operate.element_operate object at 0x00000214CC2D10B8>>(loc=('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth'), info='Main')\n +    where <bound method element_operate.get_element of <common.element_operate.element_operate object at 0x00000214CC2D10B8>> = <common.element_operate.element_operate object at 0x00000214CC2D10B8>.get_element\n +      where <common.element_operate.element_operate object at 0x00000214CC2D10B8> = element_operate(<appium.webdriver.webdriver.WebDriver (session=\"f23d6c31-fdd0-4498-bb82-84c7d148a0a9\")>)\n +        where <appium.webdriver.webdriver.WebDriver (session=\"f23d6c31-fdd0-4498-bb82-84c7d148a0a9\")> = <testcase.test_break.Test_break object at 0x00000214CC28A6A0>.driver\n +    and   ('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth') = Main.bluetooth_sign",
+      "children" : [ {
+        "name" : "[Main]-->[Bluetooth]",
+        "uid" : "e7b18957b6e5d658",
+        "parentUid" : "67faf877ce2ad8877e4e60cf847fdaf5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620889845954,
+          "stop" : 1620889952157,
+          "duration" : 106203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67faf877ce2ad8877e4e60cf847fdaf5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

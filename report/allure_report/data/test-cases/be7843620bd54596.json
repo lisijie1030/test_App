@@ -1,0 +1,143 @@
+{
+  "uid" : "be7843620bd54596",
+  "name" : "[Main]-->[Bluetooth]",
+  "fullName" : "testcase.test_break.Test_break#test_main",
+  "historyId" : "a110c62f8dccdfbdb85de53ec3830c69",
+  "time" : {
+    "start" : 1620889386196,
+    "stop" : 1620889454614,
+    "duration" : 68418
+  },
+  "description" : "该用例[Main]-->[Bluetooth]页面来回切换测试",
+  "descriptionHtml" : "<p>该用例[Main]--&gt;[Bluetooth]页面来回切换测试</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert None\n +  where None = <bound method element_operate.get_element of <common.element_operate.element_operate object at 0x00000195945E9940>>(loc=('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth'), info='Main')\n +    where <bound method element_operate.get_element of <common.element_operate.element_operate object at 0x00000195945E9940>> = <common.element_operate.element_operate object at 0x00000195945E9940>.get_element\n +      where <common.element_operate.element_operate object at 0x00000195945E9940> = element_operate(<appium.webdriver.webdriver.WebDriver (session=\"e5215a82-c7fc-433c-b7b1-db68790468d7\")>)\n +        where <appium.webdriver.webdriver.WebDriver (session=\"e5215a82-c7fc-433c-b7b1-db68790468d7\")> = <testcase.test_break.Test_break object at 0x00000195945BAA20>.driver\n +    and   ('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth') = Main.bluetooth_sign",
+  "statusTrace" : "self = <testcase.test_break.Test_break object at 0x00000195945BAA20>\ndriver_start = <appium.webdriver.webdriver.WebDriver (session=\"e5215a82-c7fc-433c-b7b1-db68790468d7\")>\n\n    @allure.story(\"用例--[Main]-->[Bluetooth]\")\n    @allure.description(\"该用例[Main]-->[Bluetooth]页面来回切换测试\")\n    @allure.title('[Main]-->[Bluetooth]')\n    @level_('HIGH')\n    @pytest.mark.usefixtures('conftest')\n    @pytest.mark.usefixtures('driver_start')\n    def test_main(self,driver_start):\n       self.driver=driver_start\n       threading_function([self.main,self.break_,self.app_process_])\n>      assert element_operate(self.driver).get_element(loc=Main.bluetooth_sign,info='Main')\nE      assert None\nE       +  where None = <bound method element_operate.get_element of <common.element_operate.element_operate object at 0x00000195945E9940>>(loc=('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth'), info='Main')\nE       +    where <bound method element_operate.get_element of <common.element_operate.element_operate object at 0x00000195945E9940>> = <common.element_operate.element_operate object at 0x00000195945E9940>.get_element\nE       +      where <common.element_operate.element_operate object at 0x00000195945E9940> = element_operate(<appium.webdriver.webdriver.WebDriver (session=\"e5215a82-c7fc-433c-b7b1-db68790468d7\")>)\nE       +        where <appium.webdriver.webdriver.WebDriver (session=\"e5215a82-c7fc-433c-b7b1-db68790468d7\")> = <testcase.test_break.Test_break object at 0x00000195945BAA20>.driver\nE       +    and   ('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth') = Main.bluetooth_sign\n\ntestcase\\test_break.py:62: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "conftest",
+    "time" : {
+      "start" : 1620889383139,
+      "stop" : 1620889386195,
+      "duration" : 3056
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "driver_start",
+    "time" : {
+      "start" : 1620889372887,
+      "stop" : 1620889383139,
+      "duration" : 10252
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "description" : "该用例[Main]-->[Bluetooth]页面来回切换测试",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert None\n +  where None = <bound method element_operate.get_element of <common.element_operate.element_operate object at 0x00000195945E9940>>(loc=('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth'), info='Main')\n +    where <bound method element_operate.get_element of <common.element_operate.element_operate object at 0x00000195945E9940>> = <common.element_operate.element_operate object at 0x00000195945E9940>.get_element\n +      where <common.element_operate.element_operate object at 0x00000195945E9940> = element_operate(<appium.webdriver.webdriver.WebDriver (session=\"e5215a82-c7fc-433c-b7b1-db68790468d7\")>)\n +        where <appium.webdriver.webdriver.WebDriver (session=\"e5215a82-c7fc-433c-b7b1-db68790468d7\")> = <testcase.test_break.Test_break object at 0x00000195945BAA20>.driver\n +    and   ('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth') = Main.bluetooth_sign",
+    "statusTrace" : "self = <testcase.test_break.Test_break object at 0x00000195945BAA20>\ndriver_start = <appium.webdriver.webdriver.WebDriver (session=\"e5215a82-c7fc-433c-b7b1-db68790468d7\")>\n\n    @allure.story(\"用例--[Main]-->[Bluetooth]\")\n    @allure.description(\"该用例[Main]-->[Bluetooth]页面来回切换测试\")\n    @allure.title('[Main]-->[Bluetooth]')\n    @level_('HIGH')\n    @pytest.mark.usefixtures('conftest')\n    @pytest.mark.usefixtures('driver_start')\n    def test_main(self,driver_start):\n       self.driver=driver_start\n       threading_function([self.main,self.break_,self.app_process_])\n>      assert element_operate(self.driver).get_element(loc=Main.bluetooth_sign,info='Main')\nE      assert None\nE       +  where None = <bound method element_operate.get_element of <common.element_operate.element_operate object at 0x00000195945E9940>>(loc=('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth'), info='Main')\nE       +    where <bound method element_operate.get_element of <common.element_operate.element_operate object at 0x00000195945E9940>> = <common.element_operate.element_operate object at 0x00000195945E9940>.get_element\nE       +      where <common.element_operate.element_operate object at 0x00000195945E9940> = element_operate(<appium.webdriver.webdriver.WebDriver (session=\"e5215a82-c7fc-433c-b7b1-db68790468d7\")>)\nE       +        where <appium.webdriver.webdriver.WebDriver (session=\"e5215a82-c7fc-433c-b7b1-db68790468d7\")> = <testcase.test_break.Test_break object at 0x00000195945BAA20>.driver\nE       +    and   ('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth') = Main.bluetooth_sign\n\ntestcase\\test_break.py:62: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3e0d59672db6ca4",
+      "name" : "失败截图",
+      "source" : "3e0d59672db6ca4.png",
+      "type" : "image/png",
+      "size" : 152126
+    }, {
+      "uid" : "93f6f310bbadd024",
+      "name" : "log",
+      "source" : "93f6f310bbadd024.txt",
+      "type" : "text/plain",
+      "size" : 5443
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "driver_start::0",
+    "time" : {
+      "start" : 1620889454649,
+      "stop" : 1620889457065,
+      "duration" : 2416
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "trivial"
+  }, {
+    "name" : "story",
+    "value" : "用例--[Main]-->[Bluetooth]"
+  }, {
+    "name" : "feature",
+    "value" : "页面来回切换测试"
+  }, {
+    "name" : "epic",
+    "value" : "异常测试"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('driver_start')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_break"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_break"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-9QI7SSI"
+  }, {
+    "name" : "thread",
+    "value" : "4420-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_break"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('driver_start')" ]
+  },
+  "source" : "be7843620bd54596.json",
+  "parameterValues" : [ ]
+}

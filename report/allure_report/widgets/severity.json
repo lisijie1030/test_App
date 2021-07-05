@@ -1,0 +1,11 @@
+[ {
+  "uid" : "e7b18957b6e5d658",
+  "name" : "[Main]-->[Bluetooth]",
+  "time" : {
+    "start" : 1620889845954,
+    "stop" : 1620889952157,
+    "duration" : 106203
+  },
+  "status" : "failed",
+  "severity" : "trivial"
+} ]

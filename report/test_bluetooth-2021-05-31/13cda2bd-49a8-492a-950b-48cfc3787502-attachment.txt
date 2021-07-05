@@ -1,0 +1,8 @@
+INFO     root:conftest.py:11 ======================测试开始=====================
+INFO     root:start_app.py:19 -------------APP连接成功-------------
+INFO     root:public.py:81 ['test_click_connect']--level-->['HIGH']
+INFO     root:element_operate.py:73 ['主页面'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:73 ['蓝牙连接界面'] 页面的元素('xpath', "//*[@text='1770000025']")--点击
+INFO     root:element_operate.py:131 ['蓝牙连接成功'] 页面的toast信息('xpath', "//*[@text='连接成功']")成功找到！
+INFO     root:test_bluetooth.py:40 自动切换到主界面
+INFO     root:conftest.py:16 ======================测试结束=====================

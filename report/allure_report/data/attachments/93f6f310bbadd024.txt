@@ -1,0 +1,52 @@
+INFO     root:start_app.py:20 APP连接成功~~
+INFO     root:test_break.py:24 ----------------测试开始-------------------
+INFO     root:public.py:72 ['test_main']--level-->['HIGH']
+INFO     root:public.py:47 线程<bound method Test_break.main of <testcase.test_break.Test_break object at 0x00000195945BAA20>>正在进行中......
+INFO     root:public.py:47 线程<bound method Test_break.break_ of <testcase.test_break.Test_break object at 0x00000195945BAA20>>正在进行中......
+INFO     root:app_operate.py:37 开始判断APP的activity是否还在运行中
+INFO     root:public.py:47 线程<bound method Test_break.app_process_ of <testcase.test_break.Test_break object at 0x00000195945BAA20>>正在进行中......
+INFO     root:element_operate.py:66 ['MAIN'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:66 ['BLUETOOTH'] 页面的元素('xpath', "//*[@text='1770000025']")--点击
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+INFO     root:element_operate.py:66 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:262 当前页面['Main']=====>返回页面['Bluetooth']
+ERROR    root:app_operate.py:50 APP的进程已被杀死,但是进程还在
+INFO     root:public.py:63 ['app_process']--所用时间-->62.28秒
+INFO     root:element_operate.py:245 ['Main'] 页面的截图成功，图片名：Main-2021-05-13_15-04-11.png
+ERROR    root:element_operate.py:33 ['Main'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')未找到，原因是Message: An element could not be located on the page using the given search parameters.
+INFO     root:test_break.py:28 -----------------测试结束-------------------
+WARNING  urllib3.connectionpool:connectionpool.py:304 Connection pool is full, discarding connection: 127.0.0.1
+INFO     root:conftest.py:15 APP关闭

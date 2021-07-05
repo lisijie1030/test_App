@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "异常测试",
+    "children" : [ {
+      "name" : "页面来回切换测试",
+      "children" : [ {
+        "name" : "用例--[Main]-->[Bluetooth]",
+        "children" : [ {
+          "name" : "[Main]-->[Bluetooth]",
+          "uid" : "e7b18957b6e5d658",
+          "parentUid" : "a5e3043f094ece95c601607f6e2b1cbb",
+          "status" : "failed",
+          "time" : {
+            "start" : 1620889845954,
+            "stop" : 1620889952157,
+            "duration" : 106203
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a5e3043f094ece95c601607f6e2b1cbb"
+      } ],
+      "uid" : "e3c27ca71a0ce78fb32f40eb914c85ff"
+    } ],
+    "uid" : "6369729f139f63aaaf0a7fbf61b30126"
+  } ]
+}

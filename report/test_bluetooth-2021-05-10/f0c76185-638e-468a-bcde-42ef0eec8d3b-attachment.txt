@@ -1,0 +1,8 @@
+INFO     root:start_app.py:21 APP连接成功~~
+INFO     root:test_bluetooth.py:23 ===================测试开始====================
+INFO     root:public.py:71 ['test_connect_bluetooth']--level-->['HIGH']
+INFO     root:element_operate.py:66 ['MAIN'] 页面的元素('id', 'factory.dev:id/ac_lgmain_img_but_bluetooth')--点击
+INFO     root:element_operate.py:66 ['BLUETOOTH'] 页面的元素('xpath', "//*[@text='F28B6000024']")--点击
+INFO     root:element_operate.py:234 ['BLUETOOTH'] 页面的截图成功，图片名：BLUETOOTH-2021-05-10_09-54-28.png
+ERROR    root:element_operate.py:121 ['BLUETOOTH'] 页面的元素('xpath', "//*[@text='连接成功']")找不到，原因是Message:
+INFO     root:test_bluetooth.py:27 ====================测试结束====================

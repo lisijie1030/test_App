@@ -1,0 +1,60 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-9QI7SSI",
+    "children" : [ {
+      "name" : "4420-MainThread",
+      "children" : [ {
+        "name" : "[Main]-->[Bluetooth]",
+        "uid" : "be7843620bd54596",
+        "parentUid" : "67a981de2db149b762516461ac0233a7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620889386196,
+          "stop" : 1620889454614,
+          "duration" : 68418
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "67a981de2db149b762516461ac0233a7"
+    }, {
+      "name" : "6280-MainThread",
+      "children" : [ {
+        "name" : "[Main]-->[Bluetooth]",
+        "uid" : "1a48a26b26f43feb",
+        "parentUid" : "2e0d0fe80140cf71b0dbea55b969c88c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620889025151,
+          "stop" : 1620889112988,
+          "duration" : 87837
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2e0d0fe80140cf71b0dbea55b969c88c"
+    }, {
+      "name" : "23344-MainThread",
+      "children" : [ {
+        "name" : "[Main]-->[Bluetooth]",
+        "uid" : "e7b18957b6e5d658",
+        "parentUid" : "25d110c6d3ca556af0abc520d8979d31",
+        "status" : "failed",
+        "time" : {
+          "start" : 1620889845954,
+          "stop" : 1620889952157,
+          "duration" : 106203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "25d110c6d3ca556af0abc520d8979d31"
+    } ],
+    "uid" : "6e5c55ae6c655aab39e191f5a90c216b"
+  } ]
+}
